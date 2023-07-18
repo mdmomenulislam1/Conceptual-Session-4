@@ -1,0 +1,457 @@
+/* Shared style */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.btn-primary {
+    padding: 1rem;
+    background-color: rgb(192, 60, 183);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+
+/* body section  */
+body {
+
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* Header section  */
+header {
+    padding: 0 5rem 3rem 5rem;
+    background-color: blueviolet;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.logo {
+    width: 100px;
+    object-fit: cover;
+
+}
+
+.logo-name {
+    color: black;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.logo-name-color {
+    color: rgb(192, 60, 183);
+}
+
+.nav-menu-container {
+    margin-top: 2rem;
+}
+
+.nav-menu-container ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+}
+
+.nav-menu {
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.btn-login {}
+
+
+/* This is intro style section  */
+.intro-container {
+    margin: 4rem 5rem 3rem 5rem;
+    background-color: rgba(157, 203, 183, 0.4);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.intro-text {
+    padding: 3rem;
+    text-align: center;
+}
+
+.intro-title {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    background-image: linear-gradient(to bottom, rgb(184, 51, 153), blueviolet);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.intro-sub-title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.social-media-icon {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.btn-intro {
+    padding: 1rem;
+    background-color: rgb(246, 246, 247);
+    color: rgb(184, 51, 153);
+    border: 0.2rem solid rgb(22, 22, 22);
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+
+.intro-img {
+    padding: 1rem;
+    width: 35%;
+}
+
+.intro-img img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is product section  */
+.product-container{
+    padding: 3rem 5rem;
+}
+
+.product-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.product-box{
+    display: flex;
+    gap: 0.1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+    
+}
+
+.product-cart{
+    background-color: rgba(44, 140, 108, 0.4);
+    border-radius: 1rem;
+    box-shadow: 2px 2px 10px 2px rgb(170, 180, 148);
+    padding: 2rem;
+    width: 15rem;
+    margin-top: 1.5rem;
+}
+
+
+.product-img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.product-heading{
+    margin-bottom: 1rem;
+}
+
+.product-heading span{
+
+}
+
+.product-name{
+    
+}
+
+.product-description{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.price{
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* This is discount section  */
+.discount-container{
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    background-color: blueviolet;
+    margin: 2rem 0;
+}
+
+.discount-img{
+    width: 80%;
+    position: relative;
+}
+
+.discount-img img{
+    width: 100%;
+}
+
+.discount-offer{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    border: 1rem solid white;
+    background-color: rgb(153, 44, 126);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 30rem;
+    left: 33rem;
+}
+
+.discount-offer p{
+    font-size: 4rem;
+    padding-top: 2.5rem;
+    font-weight: 900;
+}
+
+.discount-text{
+    color: white;
+    text-align: justify;
+}
+
+.discount-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    width: 80%;
+}
+
+.discount-description{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+/* Feedback section  */
+.feedback-container{
+    padding: 3rem 5rem;
+    margin: 2rem 0;
+}
+
+.User-feedback{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.feedback-box-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+}
+
+.feedback-box{
+    background-color: blanchedalmond;
+    border-radius: 1rem;
+    border: 0.2rem dashed black;
+    padding: 2rem;
+    width: 15rem;
+}
+
+
+.feedback-box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.feedback-box-header img{
+    width: 4rem;
+}
+
+.customer-name{
+
+}
+
+.date{
+
+}
+
+.comment{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is responsive section  */
+/* Small Device */
+@media screen and (max-width: 576px) {
+    * {
+        flex-wrap: wrap;
+    }
+
+    /* header  */
+    header {
+        padding: 0 0rem 3rem 0rem;
+    }
+
+    nav {
+        flex-wrap: wrap;
+
+    }
+
+    .nav-menu-container ul {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    /* intro section  */
+    .intro-container {
+        margin: 1rem 0rem 3rem 0rem;
+
+    }
+
+    .intro-img {
+        padding: 1rem;
+        width: 100%;
+    }
+
+
+
+
+
+    /* This is discount section  */
+.discount-container{
+    
+}
+
+.discount-img{
+}
+
+.discount-img img{
+    
+}
+
+.discount-offer{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    border: 0.5rem solid white;
+    bottom: 8rem;
+    left: 8rem;
+}
+
+.discount-offer p{
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+
+.discount-text{
+    
+}
+
+.discount-title{
+    
+}
+
+.discount-description{
+    
+}
+
+}
+
+
+
+
+.hide {
+    display: none;
+}
+
+
+
+
+/* Medium Device */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav {
+        flex-wrap: wrap;
+
+    }
+
+    .nav-menu-container ul {
+        flex-direction: column;
+        text-align: center;
+
+    }
+}
